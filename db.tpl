@@ -1,22 +1,18 @@
 <table width="100%" align="center" height="100%"  class="screen">
 	<tr>
 		<td align="center" valign="top"  > 
-			<div id="deny-access" style="text-align: center; width:600px;"> 
+			<div class="jumbotron" id="deny-access" > 
 				<h4 class="error"  > 
-					<div class="chat-bubble" id="sdx-bubble">
-					<img src="/bin/images/logos/sdx.png"/> 
-					  <div class="chat-bubble-arrow-border"></div>
-					  <div class="chat-bubble-arrow"></div>
-					</div> 
-
+					 
 				
 				<button onclick="history.back()" style="float: left" value="Connect" class="punch">
-			 		<img src="{$ICON.32}arrow_left.png"><br/>
+			 		 <i class="fa fa-arrow-left"></i> Back
 				</button> 
-				<button onclick="location = '/{$toBackDoor}/update/syncDb' " style="float: right;" value="Connect" class="punch">
-			 		 <img src="{$ICON.32}sword.png"><br/>Fix
+				<button onclick="location = '/{$toBackDoor}/?syncDb' " style="float: right;" value="Connect" class="punch">
+			 		 <i class="fa fa-wrench"></i> Fix
 				</button>
-				<img src="{$ICON.256}Delete Database.png" align="absmiddle" /> <br/>
+				<i class="fa fa-database fa-5x"></i><br/>
+
  				{$request}<BR/>{$reason}
 				</h4> 
 				
