@@ -1,32 +1,26 @@
-<table width="100%" align="center" height="100%"  class="screen">
-	<tr>
-		<td align="center" valign="top " style="padding-top: 5px;" > 
-			
- 
-			<div class="shade-box " style="text-align: center; width:600px;"> 
-				
-				<h4 class="error" > 
-				<div class="chat-bubble" id="sdx-bubble">
-				<img src="/bin/images/logos/sdx.png"/> 
-				  <div class="chat-bubble-arrow-border"></div>
-				  <div class="chat-bubble-arrow"></div>
-				</div>
-				<button onclick="history.back()" style="float: left" value="Connect" class="punch">
-			 		<img src="{$ICON.32}arrow_left.png">
-				</button>  
-				<button onclick="location = location" style="float: right;" value="Connect" class="punch">
-			 		 <img src="{$ICON.32}arrow_rotate_clockwise.png">
-				</button>
-				<img align="abs" src="{$ICON.256}Under-construction.png" /> 
-				<br/>
-				{$request.action} :: {$request.method}<BR/>{$params.error}
-				</h4>  
-			</div>	
-			
-		</td>
-	</tr>
-</table>  
+<div class="shade-box  error jumbotron" style="text-align: center;"> 
+	<h1> 
+		<i class="fa fa-ban fa-2x"></i><br/>
+		{$request.action|ucfirst} {$request.method}
+	</h1>
 
+
+
+	<button onclick="location = location" style="float: right;" value="Connect" class="punch">
+ 		 <i class="fa fa-refresh fa-spin"></i>
+	</button>
+
+	<button onclick="history.back()" style="float: left" value="Connect" class="punch">
+ 		 <i class="fa fa-arrow-left"></i>
+	</button>
+	
+
+	<h3 class=" ">
+		{$params.error} 
+	</h3>  
+	
+</div>	
+<!-- <span class="btn btn-info btn-xs">powered by <br/><img src="{$thumb}src=/bin/images/logos/sdx.png&h=15"/> </span> -->
  
 	
 
