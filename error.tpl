@@ -1,30 +1,34 @@
-<div class="shade-box  error jumbotron" style="text-align: center;"> 
-	<h1> 
-		<i class="fa fa-ban fa-2x"></i><br/>
-		{$request.action|ucfirst} {$request.method}
-	</h1>
+<div class="row">
+	<div class="col-md-12">
+
+
+		<div class=" shade-box error jumbotron" style="text-align: center;"> 
+			<h1> 
+				<i class="fa fa-ban fa-2x"></i><br/>
+				{$request.action|ucfirst} {$request.method}
+			</h1>
 
 
 
-	<button onclick="location = location" style="float: right;" value="Connect" class="punch">
- 		 <i class="fa fa-refresh fa-spin"></i>
-	</button>
+			<button onclick="location = location" style="float: right;" value="Connect" class="punch">
+		 		 <i class="fa fa-refresh fa-spin"></i>
+			</button>
 
-	<button onclick="history.back()" style="float: left" value="Connect" class="punch">
- 		 <i class="fa fa-arrow-left"></i>
-	</button>
-	
+			<button onclick="history.back()" style="float: left" value="Connect" class="punch">
+		 		 <i class="fa fa-arrow-left"></i>
+			</button>
+			
 
-	<h3 class=" ">
-		{$params.error} 
-	</h3>  
-	
-</div>	
+			<h3 class=" ">
+				{$params.error} 
+			</h3>  
+			
+		</div>	
+	</div>
+</div>
 <!-- <span class="btn btn-info btn-xs">powered by <br/><img src="{$thumb}src=/bin/images/logos/sdx.png&h=15"/> </span> -->
  
-	
-
-</div>	 
+	 
 {literal}
 <style type="text/css">
 	.error{
