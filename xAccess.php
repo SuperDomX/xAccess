@@ -1,6 +1,6 @@
 <?php
 /**
- * @name Access
+ * @name Locks
  * @desc Manage Access to who, where and when.
  * @version v0.1.3
  * @author cdpollard@gmail.com
