@@ -2,7 +2,7 @@
 	<div class="col-md-12">
 		<section class="widget">
 			<div class="jumbotron">
-				<h1><i class="fa fa-lock"></i> Locks to your Kingdom's Domain</h1>
+				<h1><i class="fa fa-lock"></i> Locks to the Kingdom's Domain</h1>
 				<p>
 					Manage Locks to be sure how you want to grant access to throughout your domain.
 				</p>
@@ -21,7 +21,7 @@
 			<div class="col-md-4">
 				 <section class="widget">
 		            <div class="jumbotron handle text-align-center">
-		            	<h1><i class="fa fa-{$key} fa-5x"></i></h1>
+		            	<h1><i class="fa fa-{$key} fa-4x"></i></h1>
 		                <a href="/{$toBackDoor}/{$Xtra}/{$method}/{$key}" class="btn btn-lg btn-success">{$key|ucfirst}</a>
 		        </section>
 
