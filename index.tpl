@@ -16,65 +16,19 @@
 
 <script type="text/javascript" src="/x/html/layout/watchtower/js/grid-live.js"> </script>
 <div class="row">
-	<div class="col-md-5">
-		 <section class="widget">
-            <div class="jumbotron handle">
-                <div class="container">
- 	
+	{foreach $admin_menu as $key => $item}
+		{if $key}  
+			<div class="col-md-4">
+				 <section class="widget">
+		            <div class="jumbotron handle text-align-center">
+		            	<h1><i class="fa fa-{$key} fa-5x"></i></h1>
+		                <a href="/{$toBackDoor}/{$Xtra}/{$method}/{$key}" class="btn btn-lg btn-success">{$key|ucfirst}</a>
+		        </section>
 
-				{foreach $admin_menu as $key => $item}
-					{if $key}  
-					 
+			</div>
+		{/if}
+	{/foreach}
 
-						<div class="doorContainer" >
-							<div class="click swing panel accessDoorContainer">
-								<div class="front panel">
-									<div class="accessDoor " style="float: left"> 
-
-										<div class="accessDoorInset" style="top: 5%; left: 15%;"></div>
-										<div class="accessDoorInset" style="top: 5%; right: 15%;"></div>
-										<div class="accessDoorInset" style="bottom: 5%; left: 15%;"></div>
-										<div class="accessDoorInset" style="bottom: 5%; right: 15%;"></div>
-										<div class="accessDoorKnob"> </div>
-										<div class="accessDoorSign">
-											<!-- <img src="{$thumb}h=64&src={$ICON.A}{$key}.png&q=100"  id="area-{$key}"><br/> -->
-											{$item.area|ucfirst}
-										</div>
-
-									</div>
-								</div>
-								<div class="back panel"></div>
-								<div class="doorroom">
-									{foreach $xtras as $x => $xtra}
-										{if $xtra.icon && $key == $xtra.see}
-											
-										{$xtra.name}
-
-										<div class="controls form-group">
-							                <div id="gender" class="btn-group" data-toggle="buttons">
-							                    <label class="btn btn-default" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
-							                        <input type="radio" name="user[newsletter]" value="true"> &nbsp; On &nbsp;
-							                    </label>
-							                    <label class="btn btn-primary active" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
-							                        <input type="radio" name="user[newsletter]" value="false"> Off
-							                    </label>
-							                </div>
-							            </div>
-										{/if}
-									{/foreach}
-								</div>
-							</div>
-						</div> 
-					{/if}
-				{/foreach}
-
-			
-
-                </div>
-            </div>
-        </section>
-
-	</div>
 </div>
 <script>
 	$(document).ready(function(){
