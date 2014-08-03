@@ -1,4 +1,21 @@
 <div class="row">
+	<div class="col-md-12">
+		<section class="widget">
+			<div class="jumbotron">
+				<h1><i class="fa fa-lock"></i> Locks to your Kingdom's Domain</h1>
+				<p>
+					Manage Locks to be sure how you want to grant access to throughout your domain.
+				</p>
+				<a href="/{$toBackDoor}/login/keys" class="btn btn-danger btn-lg"><i class="fa fa-key"></i> Manage Keys</a>
+				<a href="/{$toBackDoor}/access" class="btn btn-primary btn-lg"><i class="fa fa-bomb"></i> Blacklist & Firewall</a> 
+			</div>	
+		</section>
+	</div>
+	
+</div>
+
+<script type="text/javascript" src="/x/html/layout/watchtower/js/grid-live.js"> </script>
+<div class="row">
 	<div class="col-md-5">
 		 <section class="widget">
             <div class="jumbotron handle">
