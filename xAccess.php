@@ -2,7 +2,7 @@
 /**
  * @name Locks
  * @desc Manage Access to who, where and when.
- * @version v0.1.3
+ * @version v1.0.0
  * @author cdpollard@gmail.com
  * @icon Keychain2.png
  * @mini lock
@@ -10,7 +10,7 @@
  * @see domain
  * @release alpha
  * @todo
- * @alpha true
+ * @beta true
  */
 
 	class xAccess extends Xengine{
