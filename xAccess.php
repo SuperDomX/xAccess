@@ -2,7 +2,7 @@
 /**
  * @name Locks
  * @desc Manage Access to who, where and when.
- * @version v1.0.0
+ * @version v1.1.0
  * @author cdpollard@gmail.com
  * @icon Keychain2.png
  * @mini lock
