@@ -3,22 +3,26 @@
         <div class="body">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="text-align-center">4<i class="fa   fa-ban">4 </i>
-                          <i class="fa  fa-arrow-down"></i> 
-                         
-                       </h1>
-                     <div class="btn-group">
+                    {if $masterKey.is.admin}
+                         <h3 class="text-align-center"><i class="fa fa-5x fa-flag-checkered"></i>Create Landing Page</h3>
+                        <button class="btn btn-lg btn-info action"><i class="fa fa-link"></i></button>
+                        <button class="btn btn-lg btn-info  action"><i class="fa fa-language"></i></button>
+                        <button class="btn btn-lg btn-info  action"><i class="fa fa-cube"></i></button>
+                    {else}
+                        <h1 class="text-align-center">4<i class="fa   fa-ban">4 </i>
+                        <i class="fa  fa-arrow-down"></i> 
+
+                        </h1>
+                        <div class="btn-group">
 
                         <button class="btn btn-lg btn-warning action{if $masterKey.is.admin}active disabled{/if}"><i class="fa fa-key"></i></button>
-                    {if $masterKey.is.admin}
-                    <button class="btn btn-lg btn-info action"><i class="fa fa-link"></i></button>
-                    <button class="btn btn-lg btn-info  action"><i class="fa fa-language"></i></button>
-                    <button class="btn btn-lg btn-info  action"><i class="fa fa-cube"></i></button>
+
+                        </div> 
+                        <div class="description">
+                        <h3>Opps! Whatever you were looking for, it's not here.  <i class="fa  fa-search"></i></h3> 
+                        </div>
                     {/if}
-                      </div> 
-                    <div class="description">
-                       <h3>Opps! Whatever you were looking for, it's not here.  <i class="fa  fa-search"></i></h3> 
-                    </div>
+                    
                 </div>
             </div>
         </div>
