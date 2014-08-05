@@ -1,8 +1,8 @@
 <?php
 /**
- * @name Locks
+ * @name Access
  * @desc Manage Access to who, where and when.
- * @version v1.1.0
+ * @version v1.1.1
  * @author cdpollard@gmail.com
  * @icon Keychain2.png
  * @mini lock
@@ -10,7 +10,7 @@
  * @see domain
  * @release alpha
  * @todo
- * @beta true
+ * @alpha true
  */
 
 	class xAccess extends Xengine{
