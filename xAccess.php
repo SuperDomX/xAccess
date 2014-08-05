@@ -2,15 +2,15 @@
 /**
  * @name Access
  * @desc Manage Access to who, where and when.
- * @version v1.1.1
- * @author cdpollard@gmail.com
+ * @version v1(1.2)
+ * @author heylisten@xtiv.net
  * @icon Keychain2.png
  * @mini lock
  * @link access
  * @see domain
- * @release alpha
+ * @release beta
  * @todo
- * @alpha true
+ * @beta true
  */
 
 	class xAccess extends Xengine{
