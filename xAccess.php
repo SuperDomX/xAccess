@@ -8,9 +8,9 @@
  * @mini lock
  * @link access
  * @see domain
- * @release beta
+ * @release delta
  * @todo
- * @beta true
+ * @delta true
  */
 
 	class xAccess extends Xengine{
