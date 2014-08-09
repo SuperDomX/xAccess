@@ -1,16 +1,15 @@
-<div class="single-widget-container">
+<div class="row">
     <section class="widget transparent">
-        <div class="body">
-            <div class="row"> 
-               <h1 class="text-align-center"><i class="fa fa-5x fa-flag-checkered"></i></h1>
-                <div class="btn-group">
+        <div class="text-align-center"> 
+            <h1>Blank.</h1>
 
-                    <button class="btn  btn-warning active"><i class="fa fa-key"></i></button>
-                    <button class="btn   btn-info action"><i class="fa fa-link"></i></button>
-                    <button class="btn   btn-success action"><i class="fa fa-cube"></i></button>  
-                    <button class="btn   btn-primary action"><i class="fa fa-cubes"></i></button>  
-                </div>
-            </div>
+            <i class="fa fa-flag fa-5x action pointer "></i>
+            <!-- <div class="btn-group"> 
+                <button class="btn btn-lg btn-default active"><i class="fa fa-key"></i></button>
+                <button class="btn  btn-lg btn-info action"><i class="fa fa-link"></i></button>
+                <button class="btn  btn-lg btn-success action"><i class="fa fa-cube"></i></button>  
+                <button class="btn  btn-lg btn-primary action"><i class="fa fa-cubes"></i></button>  
+            </div> -->
         </div>
     </section> 
 </div>

@@ -2,15 +2,15 @@
 /**
  * @name Access
  * @desc Manage Access to who, where and when.
- * @version v1(1.2)
+ * @version v1(1.3)
  * @author heylisten@xtiv.net
  * @icon Keychain2.png
  * @mini lock
  * @link access
  * @see domain
- * @release beta
+ * @release delta
  * @todo
- * @beta true
+ * @delta true
  */
 
 	class xAccess extends Xengine{
@@ -48,6 +48,14 @@
 
 
 			return $this->enterKey($goto);
+		}
+
+		public function backdoorOnly()
+		{
+			if(!$this->Key['is']['admin']){
+				$this->SET['action'] = 'access';
+				$this->SET['method'] = 'denied';
+			}
 		}
 
 		/*
