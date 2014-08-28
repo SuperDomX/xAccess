@@ -46,6 +46,10 @@
 				$this->set('admin_menu',$this->mkAdminMenu());
 			}
 
+			// items that point to the main source, we should try to redirect to where they may lye..
+
+
+			$_SESSION['breadcrumb'] = $this->_SET;
 
 			return $this->enterKey($goto);
 		}
@@ -119,6 +123,10 @@
 					'timestamp' => time()
 				));	
 			} 
+
+
+
+
 			return array(
 				'request' => $request,
 				'reason'  =>$reason
