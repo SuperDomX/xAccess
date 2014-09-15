@@ -1,8 +1,8 @@
 <?php
 /**
- * @name Access
+ * @name Locks
  * @desc Manage Access to who, where and when.
- * @version v1(1.3)
+ * @version v1(1.4)
  * @author heylisten@xtiv.net
  * @icon Keychain2.png
  * @mini lock
