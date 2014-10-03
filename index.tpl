@@ -1,4 +1,5 @@
-<div class="row">
+{include file="~widgets/billboard.tpl" col=3}
+<!-- <div class="row">
 	<div class="col-md-12">
 		<section class="widget">
 			<div class="jumbotron">
@@ -12,17 +13,23 @@
 		</section>
 	</div>
 	
-</div>
+</div> -->
 
 <script type="text/javascript" src="/x/html/layout/watchtower/js/grid-live.js"> </script>
 <div class="row">
 	{foreach $admin_menu as $key => $item}
 		{if $key}  
 			<div class="col-md-4">
+
 				 <section class="widget">
 		            <div class="jumbotron handle text-align-center">
-		            	<h1><i class="fa fa-{$key} fa-4x"></i></h1>
-		                <a href="/{$toBackDoor}/{$Xtra}/{$method}/{$key}" class="btn btn-lg btn-success">{$key|ucfirst}</a>
+
+		            	<h1><i class="fa fa-{$key} fa-3x"></i></h1>
+
+		                <a href="/{$toBackDoor}/{$Xtra}/{$method}/{$key}" class="btn btn-lg btn-primary">
+		                <i class="fa fa-{$key} "></i>
+		                	{$item.area}
+				        </a>
 		        </section>
 
 			</div>
