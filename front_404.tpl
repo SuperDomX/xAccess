@@ -4,34 +4,31 @@
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 
 <link rel="stylesheet" href="/bin/css/font-awesome.css">
+<section id="content" class="container">      
 
-<div class="single-widget-container error-page" id="xAccess-404">
-    <section class="widget transparent widget-404">
-        <div class="body">
-            <div class="row">
+<div class="error-page text-center" id="xAccess-404">
+    <section class="widget transparent">
+        <div class="row">
                 <div class="col-md-12">
                    <h1 class="text-align-center">
-                    New Page
+                    Empty Space
                     <i class="fa   fa-eye-slash"></i>
 
                     </h1>
                     <div class="btn-group">
 
-                    <!-- <button class="btn btn-lg btn-warning action{if $masterKey.is.admin}active disabled{/if}"><i class="fa fa-key"></i></button> -->
+                    <button class="btn btn-alt btn-lg btn-warning action{if $masterKey.is.admin}active disabled{/if}"><i class="fa fa-key"></i></button>
+                    <button class="btn btn-alt btn-lg btn-warning action{if $masterKey.is.admin}active disabled{/if}"><i class="fa fa-key"></i></button>
+                    <button class="btn btn-alt btn-lg btn-warning action{if $masterKey.is.admin}active disabled{/if}"><i class="fa fa-key"></i></button>
+                    <button class="btn btn-alt btn-lg btn-warning action{if $masterKey.is.admin}active disabled{/if}"><i class="fa fa-key"></i></button>
 
-                    </div> 
-                    <div class="description">
-                    
-                    <!-- Opps! Whatever you were looking for, it's not here.  <i class="fa  fa-search"></i></h3>  -->
-                    </div>
-                        
+                    </div>  
                    
                     
                 </div>
             </div>
-        </div>
     </section>
-    <section class="widget widget-404-search">
+    <!-- <section class="widget widget-404-search">
         <div class="body no-margin">
             <h3>Page Not Found</h3>
             <form class="form-inline form-search no-margin text-align-center" method="get" action="special_search.html" role="form">
@@ -46,5 +43,6 @@
                 </div>
             </form>
         </div>
-    </section> 
+    </section>  -->
     </div>
+</section>
