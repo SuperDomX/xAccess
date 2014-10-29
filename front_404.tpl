@@ -1,4 +1,6 @@
-<!-- <link href="/x/html/layout/watchtower/css/white.application.min.css" rel="stylesheet"> -->
+<!-- 
+    <link href="/x/html/layout/watchtower/css/white.application.min.css" rel="stylesheet"> 
+-->
 <link href="/x/html/layout/watchtower/css/application.min.css" rel="stylesheet"> 
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
@@ -6,21 +8,25 @@
 <link rel="stylesheet" href="/bin/css/font-awesome.css">
 <section id="content" class="container">      
 
+{$l = $LANG.XACCESS}
+
 <div class="error-page text-center" id="xAccess-404">
     <section class="widget transparent">
         <div class="row">
-                <div class="col-md-12">
-                   <h1 class="text-align-center">
-                    Empty Space
-                    <i class="fa   fa-eye-slash"></i>
-
+                <div class="col-md-12"> 
+                    <h1 class="text-align-center">
+                        {$l.HEAD}
                     </h1>
+                    <h4>
+                        {$l.MSG}
+                    </h4>
                     <div class="btn-group">
 
-                    <button class="btn btn-alt btn-lg btn-warning action{if $masterKey.is.admin}active disabled{/if}"><i class="fa fa-key"></i></button>
-                    <button class="btn btn-alt btn-lg btn-warning action{if $masterKey.is.admin}active disabled{/if}"><i class="fa fa-key"></i></button>
-                    <button class="btn btn-alt btn-lg btn-warning action{if $masterKey.is.admin}active disabled{/if}"><i class="fa fa-key"></i></button>
-                    <button class="btn btn-alt btn-lg btn-warning action{if $masterKey.is.admin}active disabled{/if}"><i class="fa fa-key"></i></button>
+                        <button class="btn btn-alt btn-lg btn-info action{if $masterKey.is.admin}active disabled{/if}"><i class="fa fa-key"></i></button>
+                        <button class="btn btn-alt btn-lg btn-warning action{if $masterKey.is.admin}active disabled{/if}"><i class="fa fa-key"></i></button>
+                        <button class="btn btn-alt btn-lg btn-success action{if $masterKey.is.admin}active disabled{/if}"><i class="fa fa-key"></i></button>
+                        <button class="btn btn-alt btn-lg btn-primary action{if $masterKey.is.admin}active disabled{/if}"><i class="fa fa-key"></i></button>
+                        <button class="btn btn-alt btn-lg btn-danger action{if $masterKey.is.admin}active disabled{/if}"><i class="fa fa-key"></i></button>
 
                     </div>  
                    

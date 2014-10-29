@@ -1,3 +1,5 @@
+{$l = $LANG.XACCESS}
+
 {if $masterKey.is.admin}
     {include file="./back_404.tpl"}
 {else}
