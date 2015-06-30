@@ -1,7 +1,7 @@
 <?php
 /**
- * @name Access
- * @desc Manage Access to who, where and when.
+ * @name Locks
+ * @desc Fasten locks to doorways you want secured.
  * @version v1(1.4.1)
  * @author heylisten@xtiv.net
  * @icon Keychain2.png
@@ -47,6 +47,8 @@
 			}
 
 			// items that point to the main source, we should try to redirect to where they may lye..
+
+			$this->set('domain', $this->mainDomain() );
 
 			return $this->enterKey($goto);
 		}
