@@ -2,8 +2,8 @@
 /**
  * @name Locks
  * @desc Fasten locks to doorways you want secured.
- * @version v1(1.4.1)
- * @author heylisten@xtiv.net
+ * @version v0.1(160710)
+ * @author @xopherdeep
  * @icon Keychain2.png
  * @mini lock
  * @link access
